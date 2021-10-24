@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+.tamanho-container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#logo-fla img{
+    width: 90px;
+    height: 90px;
+}
+.flex-container{
+   position: fixed;
+   width: 100%;
+   background-image: linear-gradient(to right , black , rgb(250, 1, 1));
+   box-shadow: 2px 5px 10px rgba(24, 23, 23, 0.603);
+    
+}
+.flex-container .tamanho-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ /*  min-height: 60px; */
+  padding: 0 10px;
+  margin: 0 auto;
+
+} 
+.topo-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-topo{
+    display: flex;
+}
+
+.link-topo a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.topo a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 425px) {
+    .flex-container .tamanho-container{flex-direction: column;}
+    .topo-logo{margin: 10px 0;}
+    .link-topo{ width: 100%; border-top: 1px solid #f0f0f0; justify-content: space-around;}
+
+    
+}
+
+.audio{
+   width: 200px;
+   height: 30px;
+   border-radius: 15px;
+   box-shadow: 2px 5px 5px black;
+}
+/* @media screen and (max-width: 800px) {
+    .audio{
+        width: 100px;
+        height: 30px;
+    }
+    
+}
+@media screen and (max-width: 440px) {
+    .audio{
+        display: none;
+    }
+    
+} */
+/* @media screen and (max-width: 440px) {
+    .edit_audio{
+    position: fixed;
+    display: inline;
+    width: 100vw;
+    height: 15px;     
+    }
+    
+} */
+/* .edit_audio{
+   
+   height: 30px;
+   border-radius: 15px;
+   box-shadow: 2px 5px 5px black;
+   background-image: linear-gradient(to right , black , rgb(250, 1, 1));
+   display: none;
+} */
+.principal{
+    /* padding-top: 105px; */
+}
+.item-querido{
+  
+     background-image: url("image/camisa.jpg" ); 
+     background-size: cover; 
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+ h1{
+    color: rgb(5, 5, 5);
+ }  
+ #querido h1{
+     color: white;
+ }
+/* }
+@media (max-width:900px){
+    .item-querido {height: 100vh;}
+}
+@media (max-width:768px){
+    .item-querido{height: 100vh; }
+}
+@media (max-width:425px){
+    .item-querido{height: 100vh; }
+} */
+.item-historia {
+    padding-top: 100px;
+    background-image: url("image/textura_antiga.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+   
+}
+#historia{
+    text-align: center;   
+}
+.img-historia{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:center;
+   
+    
+}
+.img-historia img{
+    box-shadow: 2px 5px 5px rgb(134, 131, 131);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+
+}
+@media screen and (max-width: 935px) {
+    .img-historia img{
+        width: 240px;
+        height: 160px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .img-historia img{
+        width: 168px;
+        height: 112px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .img-historia img{
+        width: 117.6px;
+        height:78.4px;
+    }
+}
+
+
+.hino-part-one , .hino-part-two{
+    color: black;
+    font-weight: bold;
+}
+#hino{
+    text-align: center;
+}
+.item-hino{
+    padding-top: 100px;
+    background-image: url("image/img_musica.jpg");
+}
+.hino-container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.item-titulos{
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.836) ,rgba(255, 0, 0, 0.856));
+    padding-top: 100px;
+}
+
+#titulos{
+    
+    text-align: center;
+}
+.img-titulos{
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.836) ,rgba(255, 0, 0, 0.856));
+    padding-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+
+}.img-titulos p{
+    
+    padding-bottom: 100px;
+}
+
+.img-titulos img{
+    box-shadow: 2px 5px 15px rgb(12, 12, 12);
+    width: 300px;
+    height: 200px; 
+}
+.flex-footer{
+    height: 50px;
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-footer div{
+    color: white;
+}
+
+
+
+
+
