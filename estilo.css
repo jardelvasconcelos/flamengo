@@ -19,6 +19,7 @@
 }
 .flex-container{
    position: fixed;
+   margin-top: 0px;
    width: 100%;
    background-image: linear-gradient(to right , black , rgb(250, 1, 1));
    box-shadow: 2px 5px 10px rgba(24, 23, 23, 0.603);
@@ -99,11 +100,15 @@
 } */
 .principal{
     /* padding-top: 105px; */
+    max-width: 1024px;
+    margin: 0px auto;
+
 }
 .item-querido{
   
      background-image: url("image/camisa.jpg" ); 
      background-size: cover; 
+     background-attachment: local;
      height: 100vh;
      width: 100%;
      display: flex;
@@ -205,7 +210,7 @@
 .img-titulos{
     background-image: linear-gradient(to right , rgba(0, 0, 0, 0.836) ,rgba(255, 0, 0, 0.856));
     padding-top: 100px;
-    width: 100vw;
+   /*  width: 100vw; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -221,6 +226,12 @@
     width: 300px;
     height: 200px; 
 }
+.img-titulos figure{
+    margin: 20px;
+}
+.background{
+    background-color: rgb(15, 12, 11);
+}
 .flex-footer{
     height: 50px;
     display: flex;
@@ -230,6 +241,9 @@
     
 }
 .flex-footer div{
+    color: white;
+}
+figcaption{
     color: white;
 }
 
