@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <nav class="flex-container">
-        <div class="tamanho-container">
+    <header class="flex-container">
+        <nav class="tamanho-container">
             <div class="topo-logo">
                 <a href="#home" id="logo-fla"><img src="image/logo-flamengo.png" alt=""></a>
             </div>
@@ -21,45 +21,33 @@
                 <a href="#titulos_">Títulos</a>
             </div>
             <!-- <audio class="audio" src="audio/hino-flamengo.mp3" controls autoplay loop muted></audio> -->
-
-        </div>
-    </nav>
-
-
-    <div class="background">
-        <main class="principal" id="home">
-            <div>
-                <audio class="edit_audio" src="audio/hino-flamengo.mp3" controls autoplay loop muted></audio>
-            </div>
+        </nav>
+    </header>
+    <main class="background">
+        <div class="principal" id="home">
             <div class="item-querido">
                 <div id="querido">
                     <h1>O Mais Querido</h1>
                 </div>
             </div>
-            <div class="item-historia " id="historias">
-                <div id="historia">
-                    <h1>História</h1>
-                    <p>O Clube de Regatas Flamengo teve um inicio de muito sucesso.</p>
-                </div>
-            </div>
-            <div class="img-historia item-historia">
-                <img src="image/historia_1.jpg" alt="mengo">
-                <img src="image/historia_2.jpg" alt="#">
-                <img src="image/historia_3.jpg" alt="#">
-                <img src="image/historia_1.jpg" alt="mengo">
-                <img src="image/historia_2.jpg" alt="#">
-                <img src="image/historia_3.jpg" alt="#">
-            </div>
-            <!--  <div>
-                    <img src="image/historia_2.jpg" alt="#">
-                    <p>Papagaio de Vitém</p>
-                </div>
+            <section class="item-historia"  id="historias">
                 <div>
-                    <img src="image/historia_3.jpg" alt="#">
-                    <p>Equipe dos sonhos</p>
-                </div> -->
-            <div class="item-hino " id="hinos">
-                <div id="hino">
+                    <div class="header-item">
+                        <h1>História</h1>
+                        <p>O Clube de Regatas Flamengo teve um inicio de muito sucesso.</p>
+                    </div>
+                    <div class="img-historia item-historia">
+                        <img src="image/historia_1.jpg" alt="mengo">
+                        <img src="image/historia_2.jpg" alt="#">
+                        <img src="image/historia_3.jpg" alt="#">
+                        <img src="image/historia_1.jpg" alt="mengo">
+                        <img src="image/historia_2.jpg" alt="#">
+                        <img src="image/historia_3.jpg" alt="#">
+                    </div>
+                </div>
+            </section>
+            <section class="item-hino " id="hinos">
+                <div class="header-item">
                     <h1>Hino</h1>
                     <p>Lindo Hino do Flamengo</p>
                 </div>
@@ -101,44 +89,42 @@
                             Flamengo até morrer eu sou!</p>
                     </div>
                 </div>
-            </div>
-            <div class="item-titulos" id="titulos_">
-                <div id="titulos">
+            </section>
+            <section class="item-titulos" id="titulos_">
+                <div id="titulos" class="header-item">
                     <h1>Títulos</h1>
                     <p>Libertadores 2019</p>
                 </div>
-            </div>
-            <div class="img-titulos">
-                <figure><img src="image/lib1.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-                <figure><img src="image/lib2.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-                <figure><img src="image/lib3.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-                <figure><img src="image/lib4.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-                <figure><img src="image/lib5.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-                <figure><img src="image/lib6.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-                <figure><img src="image/lib7.jpg" alt="">
-                    <figcaption>A Liberta é nossas !</figcaption>
-                </figure>
-            </div>
-        </main>
-    </div>
+                <div class="img-titulos">
+                    <figure><img src="image/lib1.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                    <figure><img src="image/lib2.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                    <figure><img src="image/lib3.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                    <figure><img src="image/lib4.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                    <figure><img src="image/lib5.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                    <figure><img src="image/lib6.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                    <figure><img src="image/lib7.jpg" alt="">
+                        <figcaption>A Liberta é nossas !</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </main>
     <footer class="flex-footer">
-
         <div>
             <p>Produzido por Jardel Vasconcelos</p>
         </div>
-
     </footer>
 </body>
 
