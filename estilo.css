@@ -23,6 +23,7 @@
    width: 100%;
    background-image: linear-gradient(to right , black , rgb(250, 1, 1));
    box-shadow: 2px 5px 10px rgba(24, 23, 23, 0.603);
+   z-index: 2;
     
 }
 .flex-container .tamanho-container{
@@ -67,6 +68,7 @@
    height: 30px;
    border-radius: 15px;
    position: relative;
+   z-index: 1;
 }
 .principal{
     /* padding-top: 105px; */
