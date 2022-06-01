@@ -66,7 +66,7 @@
    width: 200px;
    height: 30px;
    border-radius: 15px;
-   box-shadow: 2px 5px 5px black;
+   position: relative;
 }
 .principal{
     /* padding-top: 105px; */
@@ -132,7 +132,10 @@
     height: 200px;
 
 }
-@media screen and (max-width: 935px) {
+audio{
+    height: 20px;
+}
+/* @media screen and (max-width: 935px) {
     .img-historia img{
         width: 240px;
         height: 160px;
@@ -149,7 +152,7 @@
         width: 117.6px;
         height:78.4px;
     }
-}
+} */
 
 
 .hino-part-one , .hino-part-two{
