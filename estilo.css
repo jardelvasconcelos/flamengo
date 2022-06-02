@@ -19,50 +19,28 @@
 }
 .flex-container{
    position: fixed;
-  /*  margin-top: 0px; */
    width: 100%;
    background-image: linear-gradient(to right , black , rgb(250, 1, 1));
-   box-shadow: 2px 5px 10px rgba(24, 23, 23, 0.603);
-   z-index: 2;
-    
+   z-index: 2;  
 }
-.flex-container .tamanho-container{
+.tamanho-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
- /*  min-height: 60px; */
   padding: 0 10px;
-  /* margin: 0 auto; */
-
 } 
-.topo-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.link-topo{
-    display: flex;
-}
-
 .link-topo a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     padding: 20px;
-    font-size: 25px;
-    
-}
-.topo a:hover{
-    text-decoration: underline;
+    font-size: 25px;  
 }
 @media (max-width: 425px) {
     .flex-container .tamanho-container{flex-direction: column;}
     .topo-logo{margin: 10px 0;}
-    .link-topo{ width: 100%; border-top: 1px solid #f0f0f0; justify-content: space-around;}
-
-    
+    .link-topo{ width: 100%; border-top: 1px solid #f0f0f0; justify-content: space-around;}  
 }
-
 .audio{
    width: 200px;
    height: 30px;
@@ -72,7 +50,7 @@
 }
 .principal{
     /* padding-top: 105px; */
-    max-width: 1024px;
+    /* max-width: 1024px; */
     margin: 0px auto;
 
 }
@@ -82,7 +60,7 @@
     /*  background-position: center; */
      /* background-attachment: fixed; */
      height: 100vh;
-     width: 100%auto;
+     /* width: 100%auto; */
      display: flex;
      justify-content: center;
      align-items: center;
@@ -137,32 +115,11 @@
 audio{
     height: 20px;
 }
-/* @media screen and (max-width: 935px) {
-    .img-historia img{
-        width: 240px;
-        height: 160px;
-    }
-}
-@media screen and (max-width: 500px) {
-    .img-historia img{
-        width: 168px;
-        height: 112px;
-    }
-}
-@media screen and (max-width: 360px) {
-    .img-historia img{
-        width: 117.6px;
-        height:78.4px;
-    }
-} */
-
-
 .hino-part-one , .hino-part-two{
     color: #fff;
     text-align: center;
     line-height: 25px;
     font-size: 20px;
-    /* font-weight: bold; */
 }
 #hino{
     text-align: center;
@@ -181,7 +138,6 @@ audio{
    background-color: #0f0c0b;
    padding-top: 100px;
 }
-
 #titulos{
     
     text-align: center;
@@ -194,12 +150,10 @@ audio{
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
-
-}.img-titulos p{
-    
+}
+.img-titulos p{
     padding-bottom: 100px;
 }
-
 .img-titulos img{
     box-shadow: 2px 5px 15px rgb(12, 12, 12);
     width: 300px;
