@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 } 
 .link-topo a{
     text-decoration: none;
@@ -38,9 +38,10 @@
     font-size: 25px;  
 }
 @media (max-width: 425px) {
-    .tamanho-container{flex-direction: column;}
+    .tamanho-container{flex-direction: row;}
     .topo-logo{margin: 10px 0;}
-    .link-topo{ width: 100% auto; border-top: 1px solid #f0f0f0; justify-content: space-between}  
+    .link-topo{ width: 100% auto; /* border-top: 1px solid #f0f0f0 */;display: flex;justify-content:space-between;}
+    .link-topo a{padding: 10px;}  
 }
 .audio{
    width: 200px;
@@ -58,13 +59,14 @@
 .item-querido{
      background-image: url("image/camisa.jpg" ); 
      background-size: cover; 
-    /*  background-position: center; */
-     /* background-attachment: fixed; */
      height: 100vh;
-     /* width: 100%auto; */
      display: flex;
      justify-content: center;
      align-items: center;
+}
+.item-querido h1{
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
 }
  /* h1{
     color: rgb(5, 5, 5);
@@ -73,24 +75,20 @@
      color: white;
  }
 .item-historia {
-    background-color: 0f0c0b;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
-    height: 100%;
+   /*  margin-top: 30px; */
+   padding-top: 120px;
+    /* height: 100%; */
 }
 .header-item{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
     color: #fff;
-
-
-
 }
 #historia{
     text-align: center;   
@@ -102,9 +100,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content:center;
-   
-    
+    align-content:center; 
 }
 .img-historia img{
    /*  box-shadow: 2px 5px 5px rgb(134, 131, 131); */
@@ -126,18 +122,18 @@ audio{
     text-align: center;
 }
 .item-hino{
-    padding-top: 100px;
+    padding-top: 120px;
     background-color: #0f0c0b;
 }
 .hino-container{
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
 }
 .item-titulos{
    background-color: #0f0c0b;
-   padding-top: 100px;
+   padding-top: 120px;
 }
 #titulos{
     
