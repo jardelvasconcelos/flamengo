@@ -51,10 +51,8 @@
    z-index: 1;
 }
 .principal{
-    /* padding-top: 105px; */
-    /* max-width: 1024px; */
     margin: 0px auto;
-
+    background-color: #0f0c0b;
 }
 .item-querido{
      background-image: url("image/camisa.jpg" ); 
@@ -68,10 +66,7 @@
     text-shadow: 1px 1px 2px black;
     font-size: 40px;
 }
- /* h1{
-    color: rgb(5, 5, 5);
- }   */
- #querido h1{
+h1{
      color: white;
  }
 .item-historia {
@@ -158,9 +153,6 @@ audio{
 }
 .img-titulos figure{
     margin: 20px;
-}
-.background{
-    background-color: #0f0c0b;
 }
 .flex-footer{
     height: 50px;
