@@ -138,15 +138,15 @@
 #titulos{
     text-align: center;
 }
-.img-titulos{
+/* .img-titulos{
     background-color: #0f0c0b;
     padding-top: 100px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: center;
-}
-.img-titulos p{
+} */
+/* .img-titulos p{
     padding-bottom: 100px;
 }
 .img-titulos .item_img{
@@ -155,7 +155,7 @@
 }
 .img-titulos figure{
     margin: 20px;
-}
+} */
 .flex-footer{
     height: 50px;
     display: flex;
