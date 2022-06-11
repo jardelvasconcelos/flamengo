@@ -59,7 +59,11 @@
 }
 .item_titulo{
     font-size: 25px;
-     color: #ffffff;
+     color: #d4c570;
+ }
+ .item_coment_subtitulo{
+    color: #d4c570;
+     text-align: center;
  }
 .item-container {
     display: flex;
@@ -87,6 +91,7 @@
  text-align: justify;
  margin-left: 10px;
  margin-right: 10px;
+ color: #fff;
 }
 #historia{
     text-align: center;   
@@ -104,6 +109,9 @@
     margin: 10px;
     width: 300px;
     height: 200px;
+}
+.space_figure{
+    margin-bottom: 20px;
 }
 .hino-part{
     color: #fff;
