@@ -7,13 +7,11 @@
     font-family: 'Staatliches', cursive;
     
 }
-
 .tamanho-container{
    display: flex;
    justify-content: space-evenly; 
    align-items: center;
 }
-
 #logo-fla img{
     width: 90px;
     height: 90px;
@@ -101,8 +99,6 @@
     align-content:center;
     padding-top: 40px; 
     width: 100%;
-    /* border: 1px solid white;
-    border-radius: 20px; */
 }
 .img-historia .item_img{
     margin: 10px;
