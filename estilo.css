@@ -59,7 +59,8 @@
 }
 .item_titulo{
     font-size: 25px;
-     color: #d4c570;
+    color: #d4c570;
+    text-align: center;
  }
  .item_coment_subtitulo{
     color: #d4c570;
@@ -135,27 +136,15 @@
    background-color: #0f0c0b;
    padding-top: 120px;
 }
+.secao_border{
+    border: 2px solid #d4c570;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
 #titulos{
     text-align: center;
 }
-/* .img-titulos{
-    background-color: #0f0c0b;
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
-} */
-/* .img-titulos p{
-    padding-bottom: 100px;
-}
-.img-titulos .item_img{
-    width: 300px;
-    height: 200px; 
-}
-.img-titulos figure{
-    margin: 20px;
-} */
 .flex-footer{
     height: 50px;
     display: flex;
