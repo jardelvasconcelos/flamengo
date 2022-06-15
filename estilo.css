@@ -104,12 +104,20 @@
     justify-content: space-around;
     align-content:center;
     padding-top: 40px; 
-    width: 100%;
+   /*  width: auto; */
 }
 .img-historia .item_img{
     margin: 10px;
     width: 300px;
     height: 200px;
+}
+.teste{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:center; 
+    margin: 30px;
 }
 .space_figure{
     margin-bottom: 20px;
