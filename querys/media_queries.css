@@ -16,4 +16,8 @@
     .second {
         margin-bottom: 30px;
     }
+    .principal{
+        margin: 0px auto;
+    background-color: #0f0c0b; 
+    }
 }

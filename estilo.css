@@ -45,8 +45,11 @@
    z-index: 1;
 }
 .principal{
-    margin: 0px auto;
+    margin: 0px 200px;
     background-color: #0f0c0b;
+}
+body{
+    background-color: #0f0c0b ;
 }
 .item-querido{
      background-image: url("image/camisa.jpg" ); 
