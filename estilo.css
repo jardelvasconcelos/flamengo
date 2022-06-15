@@ -30,9 +30,12 @@
 } 
 .link-topo a{
     text-decoration: none;
-    color: #ffffff;
     padding: 20px;
     font-size: 25px;  
+}
+.style_font{
+    text-shadow: 1px 1px 2px black;
+    color: #d4c570;
 }
 .audio{
    width: 200px;
@@ -54,7 +57,6 @@
      align-items: center;
 }
 .item-querido h1{
-    text-shadow: 1px 1px 2px black;
     font-size: 40px;
 }
 .item_titulo{
@@ -111,13 +113,14 @@
     width: 300px;
     height: 200px;
 }
-.teste{
+.img-titulo-brasileiro{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content:center; 
-    margin: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .space_figure{
     margin-bottom: 20px;
