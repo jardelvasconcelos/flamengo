@@ -64,9 +64,10 @@ body{
      animation-iteration-count: infinite;
 }
 @keyframes identifier {
-    0%{background-image: url("image/camisa.jpg" );}
-    50%{background-image: url("image/torcida\ flamengo.jpg" );}
-    100%{background-image: url("image/camisa.jpg");}
+        0%{background-image: url("image/camisa.jpg" );}
+        33%{background-image: url("image/torcida\ flamengo.jpg" );}
+        66%{background-image: url("image/torcida_two.jpg");}
+        100%{background-image: url("image/camisa.jpg");}
 }
 .item-querido h1{
     font-size: 40px;
