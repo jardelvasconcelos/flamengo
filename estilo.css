@@ -99,6 +99,8 @@ body{
  margin-left: 10px;
  margin-right: 10px;
  color: #fff;
+ text-indent: 50px;
+ 
 }
 #historia{
     text-align: center;   
@@ -175,6 +177,7 @@ figcaption{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 15px;
     color: #fff;
 }
 
