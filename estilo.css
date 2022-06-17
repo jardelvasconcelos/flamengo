@@ -58,6 +58,15 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
+     animation-name: identifier;
+     animation-duration: 30s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+}
+@keyframes identifier {
+    0%{background-image: url("image/camisa.jpg" );}
+    50%{background-image: url("image/torcida\ flamengo.jpg" );}
+    100%{background-image: url("image/camisa.jpg");}
 }
 .item-querido h1{
     font-size: 40px;
@@ -180,6 +189,7 @@ figcaption{
     margin-bottom: 15px;
     color: #fff;
 }
+
 
 
 
