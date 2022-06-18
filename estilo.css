@@ -59,7 +59,7 @@ body{
      justify-content: center;
      align-items: center;
      animation-name: identifier;
-     animation-duration: 30s;
+     animation-duration: 25s;
      animation-delay: 2s;
      animation-iteration-count: infinite;
 }
@@ -180,8 +180,9 @@ body{
     align-items: center;
     
 }
-.flex-footer div{
+.flex-footer {
     color: white;
+    text-align: center;
 }
 figcaption{
     text-align: justify;
