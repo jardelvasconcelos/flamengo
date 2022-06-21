@@ -33,5 +33,29 @@
     .item-titulos{
         padding-top: 170px;
     }
+    @keyframes identifier {
+        /*  0%{background-image: url("image/camisa_.jpg" );}
+         33%{background-image: url("image/torcida\ flamengo_.jpg" );}
+         66%{background-image: url("image/torcida_two_.jpg");}
+         100%{background-image: url("image/camisa_.jpg");} */
+         0%{
+             transform: scale(0.5);
+         }
+         100%{
+             transform: scale(1)
+         }
+ 
+ }
+ @keyframes opacidade {
+     0%{
+         opacity: 0.2;
+     }
+     50%{
+         opacity: 0.6;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
 }
 

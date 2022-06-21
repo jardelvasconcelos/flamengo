@@ -15,6 +15,7 @@
 #logo-fla img{
     width: 90px;
     height: 90px;
+    animation: identifier 5s;
 }
 .flex-container{
    position: fixed;
@@ -59,29 +60,18 @@ body{
     background-color: #0f0c0b ;
 }
 .item-querido{
-     background-image: url("image/torcida\ flamengo_.jpg" ); 
+     background-image: url("image/torcida\ flamengo.jpg" ); 
      background-size: cover; 
      height: 100vh;
      display: flex;
      justify-content: center;
      align-items: center;
-     animation: identifier 25s;
+     animation: opacidade 5s;
+     
+    /*  animation: identifier 3s; */
      /* animation-duration: 25s; */
      /* animation-delay: 2s;
      animation-iteration-count: infinite; */
-}
-@keyframes identifier {
-       /*  0%{background-image: url("image/camisa_.jpg" );}
-        33%{background-image: url("image/torcida\ flamengo_.jpg" );}
-        66%{background-image: url("image/torcida_two_.jpg");}
-        100%{background-image: url("image/camisa_.jpg");} */
-        0%{
-            transform: scale(1.3);
-        }
-        100%{
-            transform: scale(1)
-        }
-
 }
 .item-querido h1{
     font-size: 40px;
