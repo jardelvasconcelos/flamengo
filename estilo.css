@@ -7,6 +7,9 @@
     font-family: 'Staatliches', cursive;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 .tamanho-container{
    display: flex;
    justify-content: space-evenly; 
